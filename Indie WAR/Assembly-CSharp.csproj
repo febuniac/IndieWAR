@@ -56,11 +56,27 @@
      <Compile Include="Assets\Dice\scenes\Demo\AppDemo.cs" />
      <Compile Include="Assets\Dice\Scripts\Dice\Die_d10.cs" />
      <Compile Include="Assets\Dice\Scripts\Dice\Die_d6.cs" />
+     <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
+     <Compile Include="Assets\Scripts\ApplicationManager.cs" />
+     <Compile Include="Assets\Scripts\ButtonEvent.cs" />
+     <Compile Include="Assets\Scripts\ChangeColor.cs" />
      <Compile Include="Assets\Scripts\drag.cs" />
+     <Compile Include="Assets\Scripts\DragMe.cs" />
+     <Compile Include="Assets\Scripts\DragPanel.cs" />
+     <Compile Include="Assets\Scripts\DropMe.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\GridSpace.cs" />
+     <Compile Include="Assets\Scripts\LoadSceneOnClick.cs" />
+     <Compile Include="Assets\Scripts\PanelManager.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
+     <Compile Include="Assets\Scripts\ResizePanel.cs" />
+     <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
+     <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
+     <Compile Include="Assets\Scripts\TiltWindow.cs" />
      <None Include="Assets\Dice\-Read-Me-.txt" />
+     <None Include="Assets\UnityUISample\Fonts\Jupiter\LICENSE.txt" />
+     <None Include="Assets\UnityUISample\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\UnityUISample\Materials\UI-Default-No-Alpha.shader" />
  <Reference Include="UnityEngine.UIAutomation">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
  </Reference>
