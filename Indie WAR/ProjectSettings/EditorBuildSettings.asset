@@ -12,5 +12,5 @@ EditorBuildSettings:
     path: Assets/Menu.unity
     guid: e1210312f145f4952b07bc4608eac7a6
   - enabled: 1
-    path: Assets/mapaz.unity
-    guid: 13602498f8f23446ebf14acb932bd25f
+    path: Assets/Gamescene.unity
+    guid: 5ad49061335c34fefa9efbe45286258c
