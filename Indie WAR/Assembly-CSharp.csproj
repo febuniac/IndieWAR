@@ -69,8 +69,10 @@
      <Compile Include="Assets\Scripts\LoadSceneOnClick.cs" />
      <Compile Include="Assets\Scripts\PanelManager.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
+     <Compile Include="Assets\Scripts\QuitOnClick.cs" />
      <Compile Include="Assets\Scripts\ResizePanel.cs" />
      <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
+     <Compile Include="Assets\Scripts\SelectOnInput.cs" />
      <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
      <Compile Include="Assets\Scripts\TiltWindow.cs" />
      <None Include="Assets\Dice\-Read-Me-.txt" />
