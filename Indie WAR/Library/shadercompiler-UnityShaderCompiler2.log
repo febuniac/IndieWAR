@@ -10,3 +10,6 @@ Cmd: disassembleShader
   api=15 insize=2766 outsize=2766 ok=1
 Cmd: disassembleShader
   api=14 insize=1805 outsize=1789 ok=1
+Unhandled exception: Protocol error - failed to read correct magic number
+
+Quitting shader compiler process

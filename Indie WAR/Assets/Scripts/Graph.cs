@@ -110,7 +110,7 @@ public class Graph : MonoBehaviour
 
     IEnumerator objText()
     {
-        infoText.text = String.Format("Você controla \n as tribos {0}", playerNames[0]);
+        infoText.text = String.Format("Você controla \n as tribos {0}", temp[0]);
         yield return new WaitForSeconds(3.4f);
         infoText.text = String.Format("Seu objetivo e destruir \n as tribos {0}", temp[obj[0]]);
         yield return new WaitForSeconds(3.4f);
@@ -185,6 +185,9 @@ public class Graph : MonoBehaviour
         Transform tempTerr = null;
         Transform tempAttack = null;
 
+		int bestNode = -1;
+		Transform bestTerr = null;
+
         infoText.text = "IA jogando...";
 
         foreach (Transform child in transform)
@@ -193,29 +196,42 @@ public class Graph : MonoBehaviour
             {
                 foreach (int i in graph[GetN(child.name)])
                 {
+					if (playerColors[obj[currentPlayer]].Contains(i)){
+						bestNode = i;
+						bestTerr = child;
+					}
                     if ((closenessess[i] > maxC) && !playerColors[currentPlayer].Contains(i))
                     {
                         tempTerr = child;
                         tempNode = i;
                         maxC = closenessess[i];
                     }
+	
                 }
             }
         }
 
         foreach (Transform child in transform)
         {
-            if (GetN(child.name) == tempNode)
-            {
-                tempAttack = child;
-            }
+			if (bestNode == -1) {
+				
+				if (GetN (child.name) == tempNode) {
+					tempAttack = child;
+				}
+			} else {
+				if (GetN (child.name) == bestNode) {
+					tempAttack = child;
+					tempTerr = bestTerr;
+				}
+			}
         }
 
         if (tempTerr == null || tempAttack == null)
         {
             currentPlayer += 1;
             StartCoroutine(WaitAndPlay());
-        }else
+        }
+		else
         {
 
             //OnSelect(tempTerr.GetComponent<ButtonEvent>());
@@ -342,7 +358,7 @@ public class Graph : MonoBehaviour
             {
                 infoText.text = String.Format("Perdeu! {0} X {1}", attackDice, defendDice);
                 continueButton.SetActive(true);
-                defender.SendMessage("Loses");
+                attacker.SendMessage("Loses");
 
             }
             else

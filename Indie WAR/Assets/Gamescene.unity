@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1844,6 +1844,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d5b422ae230c94099af1cfb57aa8f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  neighbors: 
+  red: 
+  blue: 
+  yellow: 
+  green: 
+  black: 
   roundText: {fileID: 832145810}
   playerText: {fileID: 1550002602}
   infoText: {fileID: 1016851487}
@@ -2890,8 +2896,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 757456100}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 597.5, y: 336, z: 0}
-  m_LocalScale: {x: 1.49375, y: 1.49375, z: 1.49375}
+  m_LocalPosition: {x: 312, y: 175.5, z: 0}
+  m_LocalScale: {x: 0.78, y: 0.78, z: 0.78}
   m_Children:
   - {fileID: 1416933042}
   - {fileID: 1726186639}
@@ -3716,7 +3722,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.06677117, g: 0.6985294, b: 0.123411566, a: 1}
+  m_Color: {r: 0.27735728, g: 0.6374688, b: 0.99264705, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3724,8 +3730,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 7cb2912222469634ba17a77055919ea8, type: 3}
-    m_FontSize: 200
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
