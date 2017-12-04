@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 46894
+  controlID: 58096
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -72,7 +72,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 46895
+  controlID: 58097
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -178,14 +178,14 @@ MonoBehaviour:
     width: 520
     height: 335
   m_SceneLighting: 1
-  lastFramingTime: 90993.44266998768
+  lastFramingTime: 115473.5647829771
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 340.2986, y: 180.29242, z: -47.52976}
+    m_Target: {x: 260, y: 146.5, z: 0}
     speed: 2
-    m_Value: {x: 340.2986, y: 180.29242, z: -47.52976}
+    m_Value: {x: 260, y: 146.5, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -212,9 +212,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 1, z: 0, w: 0}
   m_Size:
-    m_Target: 390.8333
+    m_Target: 984.82886
     speed: 2
-    m_Value: 390.8333
+    m_Value: 984.82886
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -304,9 +304,9 @@ MonoBehaviour:
     height: 684
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ea27e8ff
-    m_LastClickedID: -1562646
-    m_ExpandedIDs: 0c92e8fff65ae9fffa5ae9ff1665e9ff3e94ebffbe3aecffd621edff3a2cedff0e3fedff5a58edff9ad7edff8ce0edff7aeeedff2af7edff80faedff5e19eeffac61efffc073efffea36f0ffba48f0ff804ef1ff0c5bf1ff145bf1ff6674f1ff1a80f1ffec87f1ffe88cf1ff9a90f1ff06abf1ff32bbf1fffcddf1ff84dff1ffb2eaf1ff6215f2ff9830f2ff065cfbff02d1fbff26d1fbffd8d4fbffded4fbffe0d4fbff4ae6fbff6ae8fbffee72fcff4e76fcff387bfcff40a3fcff86a5fcffbeabfcff3249feff6049feff064efeffd050feff9456feffac5cfeff5678feff5878feff4cf9ffffa6fbffff000000006a2b0000a62b00005437000040460000784600006e490000cc4a0000044b0000ca4c0000284e0000604e0000524f0000b4580000c8620000666600009c66000058670000046800000e680000d46f00000a700000027800007e790000ac8f00007c920000b4920000dc940000b49c0000ea9c0000
+    m_SelectedIDs: 564ee2ff
+    m_LastClickedID: -1946026
+    m_ExpandedIDs: 544ee2ff5a4ee2ff7c9ce2fff4cde2ff0c92e8fff65ae9fffa5ae9ff1665e9ff3e94ebffbe3aecffd621edff3a2cedff0e3fedff5a58edff9ad7edff8ce0edff7aeeedff2af7edff80faedff5e19eeffac61efffc073efffea36f0ffba48f0ff804ef1ff0c5bf1ff145bf1ff6674f1ff1a80f1ffec87f1ffe88cf1ff9a90f1ff06abf1ff32bbf1fffcddf1ff84dff1ffb2eaf1ff6215f2ff9830f2ff065cfbff02d1fbff26d1fbffd8d4fbffded4fbffe0d4fbff4ae6fbff6ae8fbffee72fcff4e76fcff387bfcff40a3fcff86a5fcffbeabfcff3249feff6049feff064efeffd050feff9456feffac5cfeff5678feff5878feff4cf9ffffa6fbffff000000006a2b0000a62b00005437000040460000784600006e490000cc4a0000044b0000ca4c0000284e0000604e0000524f0000b4580000c8620000666600009c66000058670000046800000e680000d46f00000a700000027800007e790000ac8f00007c920000b4920000dc940000b49c0000ea9c00002ea9000070a90000daab0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -392,18 +392,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Textures
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Textures
+  - Assets
   m_LastFoldersGridSize: 64
   m_LastProjectPath: /Users/Felipe/GitHub/IndieWAR/Indie WAR
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ba270000
-    m_LastClickedID: 10170
+    m_SelectedIDs: 38270000
+    m_LastClickedID: 10040
     m_ExpandedIDs: 0000000038270000942700000c280000b0280000be28000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -432,7 +432,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000038270000942700000c28000098280000b0280000be28000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000038270000942700000c280000b0280000be28000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -457,9 +457,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ea27e8ff
-    m_LastClickedInstanceID: -1562646
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 564ee2ff
+    m_LastClickedInstanceID: -1946026
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: fa5e000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -484,7 +484,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 1792}
+    m_ScrollPosition: {x: 0, y: 501.97266}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 110
 --- !u!114 &11
@@ -538,7 +538,7 @@ MonoBehaviour:
     y: 94
     width: 275
     height: 684
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 240}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 147
